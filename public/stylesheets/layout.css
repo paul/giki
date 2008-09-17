@@ -1,0 +1,243 @@
+body
+{
+ font-family: Arial, sans-serif;
+ font-size: 100%;
+}
+
+p
+{
+ font-size: 1em;
+ line-height: 1.5em;
+ margin: 0 0 1.5em;
+}
+
+h1
+{
+ border-bottom: 1px solid #abc;
+ color: #000;
+ line-height: 1em;
+ margin: 0 0 0.5em;
+}
+
+.small {
+  font-size: 80%;
+}
+
+/* ==== HEADER ==== */
+
+#header {
+ background-color: #def;
+ border: 1px solid;
+ border-color: #bcd #bcd #abc;
+ clear: both;
+ margin: auto;
+ padding: 0.75em;
+ text-align: center;
+}
+
+#header h1 {
+ border-bottom: 1px solid #bcd;
+ font-size: 3em;
+}
+
+#header ul,#header ol {
+ color: #def;
+ font-weight: bold;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+#header li {
+ display: inline;
+ padding: 0;
+}
+
+#header a, #header a:link, #header a:visited {
+ color: #345;
+ padding: 0 0.75em;
+}
+
+#header a:hover,#header a:active {
+ color: #000;
+}
+
+/* ==== MAIN ==== */
+
+#main {
+  margin: 0.75em;
+  padding: 0.75em;
+}
+
+/* ==== FORMS ==== */
+
+form {
+  margin: 2px 0 3px 0;
+}
+
+form ol {
+  padding: 0px;
+  margin: 0px;
+}
+
+form li {
+  float:left;
+  list-style-type: none;
+  width:100%;
+  padding: 5px 0 8px;
+}
+
+form li + li {
+  border-top: 1px solid #bcd;
+}
+
+form ol li p {
+  margin-bottom: 2px !important;
+  margin-top: 4px;
+}
+
+label {
+  width: 145px;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 5px;
+  line-height: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+label {
+  float:left;
+}
+
+label .label-note {
+  font-size: 90%;
+  font-weight: normal;
+  color: #555;
+}
+
+.form_actions {
+  margin-left: 155px;
+  margin-top: 5px;
+  background: none;
+}
+
+textarea {
+  width: 330px;
+}
+
+/* sub-lists */
+
+form ol li ol,
+form ol li ul {
+  margin-left: 155px;
+}
+
+form ol li ol label {
+  font-weight: normal;
+  width: auto;
+  float: none;
+  margin-left: 5px;
+}
+
+form ol li ol li,
+form ol li ul li {
+  padding: 2px 0 2px;
+  margin-left: -40px; /* counteract the non-existant bullets or numbers */
+}
+
+form ol li ol li + li,
+form ol li ul li + li {
+  border-top: none;
+}
+
+
+/* ==== SHOW ==== */
+
+dl {
+  margin-top: 4px;
+  background-color: #def;
+  border: 1px solid;
+  border-color: #bcd #bcd #abc;
+}
+
+dt, dd {
+  padding: 0.2em 0.5em;
+}
+
+dt {
+  width: 12em;
+  float: left;
+  margin: 0;
+  border-top: 1px solid #abc;
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 13em;
+  white-space: nowrap;
+  border-top: 1px solid #abc;
+}
+
+dd + dd {
+  border-top: none
+}
+
+/* no border on first row */
+dt:first-child,
+dt:first-child + dd {
+  border-top: none;
+}
+
+/* ==== TABLE ==== */
+
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+thead th,
+tr.head th {
+  text-align: center;
+  padding: 0px 3px;
+  white-space: nowrap;
+  border: 1px solid #bcd;
+  border-bottom: none;
+  color: #444;
+}
+
+td,
+tbody th {
+  background-color: #def;
+  border: 1px solid #abc;
+  padding: 0px 3px;
+}
+tr.even td,
+tbody tr.even th  {
+  background-color: #cde;
+}
+
+td.left {
+  text-align: left
+}
+
+td.center {
+  text-align: center
+}
+
+td.right {
+  text-align: right;
+}
+
+td.number {
+  font-family: monospace;
+  text-align: right;
+}
+
+td.actions {
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+}
+
+

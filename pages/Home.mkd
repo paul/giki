@@ -3,3 +3,4 @@ Welcome to Giki!
 
 Its a wiki! On Git!
 
+[Readme](/Readme)
